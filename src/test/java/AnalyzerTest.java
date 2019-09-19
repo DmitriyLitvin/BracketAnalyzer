@@ -31,7 +31,7 @@ public class AnalyzerTest {
 
     @Test
     public void analyzeTest6() {
-        Assert.assertFalse(Analyzer.analyze("a(na)l(yz)e"));
+        Assert.assertTrue(Analyzer.analyze("a(na)l(yz)e"));
     }
 
     @Test
