@@ -31,4 +31,4 @@ jobs:
         key: BracketAnalyzer-{{ checksum "pom.xml" }}
 
     # run tests!
-    - run: mvn clean install
+    - run: mvn clean validate compile test
